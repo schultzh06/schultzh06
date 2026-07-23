@@ -7,7 +7,7 @@ Computer Science student at **Worcester Polytechnic Institute**, concentrating i
 ## Featured Projects
 
 **insurance-cma-cs3733 — Insurance CMA**
-Full-stack insurance content management and analytics platform (React/Vite/TS, Express, Prisma + Postgres, Auth0). Built an NL-to-SQL AI insights feature with a custom SQL safety validator to prevent injection — defense-in-depth via a read-only DB role and query sanitization.
+Full-stack insurance content management and analytics platform (React/Vite/TS, Express, Prisma + Postgres, Auth0). Built an NL-to-SQL AI insights feature with a custom SQL safety validator to prevent injection — defense-in-depth via a read-only DB role and query sanitization. I was an **Assistant Lead Software Engineer** and Scrum Lead for our 10 person development team for this class project in CS3733 with Prof. Wong at WPI.
 `React` `TypeScript` `Express` `Prisma` `PostgreSQL` `OpenAI API`
 
 **music-visualizer — Audio Visualizer**
