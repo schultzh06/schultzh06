@@ -10,7 +10,7 @@ Computer Science student at **Worcester Polytechnic Institute**, concentrating i
 Full-stack insurance content management and analytics platform (React/Vite/TS, Express, Prisma + Postgres, Auth0). Built an NL-to-SQL AI insights feature with a custom SQL safety validator to prevent injection: defense via a read-only DB role and query sanitization. Served as **Assistant Lead Software Engineer** and Scrum Lead for our 10 person agile development team for this class project in CS3733 with Prof. Wong at WPI.
 `React` `TypeScript` `Express` `Prisma` `PostgreSQL` `OpenAI API` `Agile Methodology`
 
-**[music-visualizer](https://github.com/schultzh06/music_visualizer) — Audio Visualizer**
+**[music-visualizer](https://github.com/schultzh06/music-visualizer) — Audio Visualizer**
 Real-time 3D music visualizer using the Web Audio API for FFT analysis and react-three-fiber for WebGL rendering, with Spotify metadata and synced lyrics.
 `React` `Three.js` `Web Audio API` `TypeScript`
 
