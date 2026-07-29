@@ -37,5 +37,5 @@ Proxmox-based home lab simulating attacker techniques with Atomic Red Team, moni
 ![Agile](https://img.shields.io/badge/-Agile%2FScrum-0052CC?style=flat&logo=jira&logoColor=white) ![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat&logo=jira&logoColor=white) ![UML](https://img.shields.io/badge/-UML-FF6C37?style=flat) ![ERD](https://img.shields.io/badge/-ERDs-4479A1?style=flat)
 
 ## Let's Connect
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/schultzh06)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://linkedin.com/in/schultzh06)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hrschultz@wpi.edu)
