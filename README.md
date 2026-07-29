@@ -18,22 +18,22 @@ Proxmox-based home lab simulating attacker techniques with Atomic Red Team, moni
 
 ## Tech Stack
 
-**Languages:**
+**Languages:**\
 ![Languages](/languages.svg)
 
-**Frontend:**
+**Frontend:**\
 ![Frontend](/frontend.svg)
 
-**Backend & Data:**
+**Backend & Data:**\
 ![Backend and Data](/backend.svg)
 
-**Tools & Infrastructure:**
+**Tools & Infrastructure:**\
 ![Tools and Infrastructure](/tools.svg)
 
-**Security:**
+**Security:**\
 ![Security](/security.svg)
 
-**Methodologies/Workflow:**
+**Methodologies/Workflow:**\
 ![Methodologies and Workflow](/workflow.svg)
 
 ## Let's Connect
