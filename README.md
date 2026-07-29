@@ -4,17 +4,15 @@ https://github.com/schultzh06
 ## About Me
 Computer Science student at **Worcester Polytechnic Institute**, concentrating in Cybersecurity, minoring in Electrical & Computer Engineering.
 
-## Featured Projects
+**[insurance-cma-cs3733](https://github.com/schultzh06/insurance-cma-cs3733) — Insurance CMA**
+Full-stack insurance content management and analytics platform (React/Vite/TS, Express, Prisma + Postgres, Auth0). Built an NL-to-SQL AI insights feature with a custom SQL safety validator to prevent injection — defense-in-depth via a read-only DB role and query sanitization. Served as **Assistant Lead Software Engineer** and Scrum Lead for our 10 person development team for this class project in CS3733 with Prof. Wong at WPI.
+`React` `TypeScript` `Express` `Prisma` `PostgreSQL` `OpenAI API`
 
-**insurance-cma-cs3733 — Insurance CMA**
-Full-stack insurance content management and analytics platform (React/Vite/TS, Express, Prisma + Postgres, Auth0). Built an NL-to-SQL AI insights feature with a custom SQL safety validator to prevent injection: defense-in-depth via a read-only DB role and query sanitization. Served as **Assistant Lead Software Engineer** and Scrum Lead for our 10 person agile development team for this class project in CS3733 with Prof. Wong at WPI.
-`React` `TypeScript` `Express` `Prisma` `PostgreSQL` `OpenAI API` `Agile Methodology`
-
-**music-visualizer — Audio Visualizer**
+**[music-visualizer](https://github.com/schultzh06/music_visualizer) — Audio Visualizer**
 Real-time 3D music visualizer using the Web Audio API for FFT analysis and react-three-fiber for WebGL rendering, with Spotify metadata and synced lyrics.
 `React` `Three.js` `Web Audio API` `TypeScript`
 
-**homelab-buildlog — Homelab + Detection Lab**
+**[homelab-buildlog](https://github.com/schultzh06/homelab-buildlog) — Homelab + Detection Lab**
 Proxmox-based home lab simulating attacker techniques with Atomic Red Team, monitored via Wazuh, with detection rules mapped to MITRE ATT&CK. Also self hosting LLM models, webapp builds, backup mirrors, and anything else.
 `Proxmox` `Wazuh` `MITRE ATT&CK` `Linux`
 
