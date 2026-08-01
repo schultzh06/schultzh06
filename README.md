@@ -45,4 +45,5 @@ Python CLI that encrypts a payload with AES-256-GCM under a key derived from a p
 
 ## Let's Connect
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://linkedin.com/in/schultzh06)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hrschultz@wpi.edu)
+[![Contact Me](https://img.shields.io/badge/-Contact%20Me-blue?style=flat&logo=maildotru&logoColor=white)](https://haydenschultz.dev/contact)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=firefox&logoColor=white)](https://haydenschultz.dev)
