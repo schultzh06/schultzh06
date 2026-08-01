@@ -1,6 +1,6 @@
 # Hayden Schultz
 
-[**My Portfolio Website: haydenschultz.dev**](https://haydenschultz.dev)
+<a href="https://haydenschultz.dev" target="_blank" rel="noopener noreferrer">My Portfolio Website: haydenschultz.dev &nearr;</a>
 
 ## About Me
 Computer Science student at **Worcester Polytechnic Institute**, concentrating in Cybersecurity, minoring in Electrical & Computer Engineering.
