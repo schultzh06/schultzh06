@@ -7,7 +7,7 @@ Computer Science student at **Worcester Polytechnic Institute**, concentrating i
 
 ## Featured Projects
 
-**[insurance-cma-cs3733](https://github.com/schultzh06/insurance-cma-cs3733) — Insurance CMA**
+**[insurance-cms-cs3733](https://github.com/schultzh06/insurance-cms-cs3733) — Insurance CMS**
 Full-stack insurance content management and analytics platform (React/Vite/TS, Express, Prisma + Postgres, Auth0). Built an NL-to-SQL AI insights feature with a custom SQL safety validator to prevent injection: defense via a read-only DB role and query sanitization. Served as **Assistant Lead Software Engineer** and Scrum Lead for our 10 person agile development team for this class project in CS3733 with Prof. Wong at WPI.
 `React` `TypeScript` `Express` `Prisma` `PostgreSQL` `OpenAI API` `Agile Methodology`
 
