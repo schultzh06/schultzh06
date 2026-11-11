@@ -1,9 +1,12 @@
 # Hayden Schultz
 
-<a href="https://haydenschultz.dev" target="_blank" rel="noopener noreferrer">My Portfolio Website: haydenschultz.dev &nearr;</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./fastfetch-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./fastfetch-light.svg">
+  <img alt="fastfetch-style profile: CS student at WPI concentrating in Cybersecurity, minoring in ECE. Languages: TypeScript, JavaScript, Python, Java, C++, SQL." src="./fastfetch-dark.svg">
+</picture>
 
-## About Me
-Computer Science student at **Worcester Polytechnic Institute**, concentrating in Cybersecurity, minoring in Electrical & Computer Engineering.
+<a href="https://haydenschultz.dev" target="_blank" rel="noopener noreferrer">My Portfolio Website: haydenschultz.dev &nearr;</a>
 
 ## Featured Projects
 
@@ -19,29 +22,9 @@ Real-time 3D music visualizer using the Web Audio API for FFT analysis and react
 Proxmox-based home lab simulating attacker techniques with Atomic Red Team, monitored via Wazuh, with detection rules mapped to MITRE ATT&CK. Also self hosting LLM models, webapp builds, backup mirrors, and anything else.
 `Proxmox` `Wazuh` `MITRE ATT&CK` `Linux`
 
-**[subpixel](https://github.com/schultzh06/homelab-buildlog) — Steganography CLI**
+**[subpixel](https://github.com/schultzh06/subpixel) — Steganography CLI**
 Python CLI that encrypts a payload with AES-256-GCM under a key derived from a passphrase via Argon2id, then embeds the ciphertext in the least significant bits of a PNG. Checks carrier capacity before writing and verifies the GCM tag on extraction, so a wrong passphrase or a modified image fails loudly instead of returning garbage.
 `Python` `Cryptography` `AES-256-GCM` `Argon2id` `Argparse`
-
-## Tech Stack
-
-**Languages:**\
-![Languages](/languages.svg)
-
-**Frontend:**\
-![Frontend](/frontend.svg)
-
-**Backend & Data:**\
-![Backend and Data](/backend.svg)
-
-**Tools & Infrastructure:**\
-![Tools and Infrastructure](/tools.svg)
-
-**Security:**\
-![Security](/security.svg)
-
-**Methodologies/Workflow:**\
-![Methodologies and Workflow](/workflow.svg)
 
 ## Let's Connect
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn%20&nearr;-0A66C2?logo=linkedin-white&logoColor=fff)](https://linkedin.com/in/schultzh06)
