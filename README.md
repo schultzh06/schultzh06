@@ -3,8 +3,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./fastfetch-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./fastfetch-light.svg">
-  <img alt="fastfetch-style profile: CS student at WPI concentrating in Cybersecurity, minoring in ECE. Languages: TypeScript, JavaScript, Python, Java, C++, SQL." src="./fastfetch-dark.svg">
+  <img alt="fastfetch-style profile: CS student at WPI concentrating in Cybersecurity, minoring in ECE. Languages: TypeScript, JavaScript, Go, Python, C, C++, Java, SQL. Contact: me@haydenschultz.dev." src="./fastfetch-dark.svg">
 </picture>
+
+<a href="https://haydenschultz.dev" target="_blank" rel="noopener noreferrer">My Portfolio Website: haydenschultz.dev &nearr;</a>
 
 ## Let's Connect
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn%20&nearr;-0A66C2?logo=linkedin-white&logoColor=fff)](https://linkedin.com/in/schultzh06)

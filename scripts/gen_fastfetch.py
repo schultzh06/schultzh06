@@ -141,7 +141,8 @@ THEMES = {
 FONT = "'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
 SIZE, LH = 14, 20  # font size, line height (px)
 CW = 8.45  # monospace char width at 14px
-PAD, BAR = 24, 34  # window padding, title-bar height
+WINDOW = False  # True: draw a terminal window; False: transparent, text only
+PAD, BAR = (24, 34) if WINDOW else (8, 0)  # padding, title-bar height
 
 
 def logo_cells():
@@ -201,7 +202,7 @@ def build(t: dict) -> str:
     ix = lx + (COLS + PAD_RIGHT) * CW  # info column x
     vx = ix + (key_w + 2) * CW  # value column x
     width = int(vx + max(len(v) for _, v in info) * CW + PAD)
-    height = int(ly + rows * LH + LH + PAD)
+    height = int(ly + (rows + 2) * LH + PAD)
     base = lambda r: ly + r * LH + 15  # text baseline for row r
 
     # gradient keyframes: progress k shows gradient(1 - k), i.e. stops reversed
@@ -225,20 +226,24 @@ def build(t: dict) -> str:
         d = -((1 - b / BUCKETS) % 1.0) * DURATION
         css.append(f".g{b}{{animation-delay:{d:.3f}s}}")
 
+    chrome = [
+        f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="10" fill="{t["base"]}" stroke="{t["border"]}"/>',
+        f'<path d="M.5 {BAR}V10.5a10 10 0 0 1 10-10H{width - 10.5}a10 10 0 0 1 10 10V{BAR}Z" fill="{t["mantle"]}"/>',
+        f'<line x1=".5" y1="{BAR}" x2="{width - 0.5}" y2="{BAR}" stroke="{t["border"]}"/>',
+    ]
+    chrome += [f'<circle cx="{20 + i * 20}" cy="{BAR / 2}" r="6" fill="{c}"/>'
+               for i, c in enumerate(["#f38ba8", "#f9e2af", "#a6e3a1"])]
+    chrome.append(
+        f'<text x="{width / 2}" y="{BAR / 2 + 5}" text-anchor="middle" fill="{t["dim"]}">{title}: ~</text>'
+    )
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" role="img" aria-label="fastfetch-style profile for {HOST}">',
         f"<title>{title} — fastfetch</title>",
         "<style>" + "".join(css) + "</style>",
-        f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="10" fill="{t["base"]}" stroke="{t["border"]}"/>',
-        f'<path d="M.5 {BAR}V10.5a10 10 0 0 1 10-10H{width - 10.5}a10 10 0 0 1 10 10V{BAR}Z" fill="{t["mantle"]}"/>',
-        f'<line x1=".5" y1="{BAR}" x2="{width - 0.5}" y2="{BAR}" stroke="{t["border"]}"/>',
     ]
-    for i, c in enumerate(["#f38ba8", "#f9e2af", "#a6e3a1"]):
-        out.append(f'<circle cx="{20 + i * 20}" cy="{BAR / 2}" r="6" fill="{c}"/>')
-    out.append(
-        f'<text x="{width / 2}" y="{BAR / 2 + 5}" text-anchor="middle" fill="{t["dim"]}">{title}: ~</text>'
-    )
+    if WINDOW:
+        out += chrome
     out.append(
         f'<text x="{PAD}" y="{base(-1)}" xml:space="preserve"><tspan fill="{t["prompt"]}">❯</tspan>'
         f'<tspan fill="{t["text"]}"> fastfetch</tspan></text>'
